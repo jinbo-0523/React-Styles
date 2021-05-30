@@ -1,2 +1,2 @@
-# React-Styles
+# React-Style
 Created with CodeSandbox
