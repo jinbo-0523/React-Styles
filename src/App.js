@@ -8,6 +8,7 @@ import { Emotion } from "./Components/Emotion";
 export default function App() {
   return (
     <div className="App">
+      <div>hoverが効くか試してみよう</div>
       <InlineStyle />
       <CssModules />
       <StyledJsx />

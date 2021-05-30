@@ -1,8 +1,10 @@
 /** @jsxRuntime classic*/
 /** @jsx jsx*/
 import { jsx, css } from "@emotion/react";
-import styled from "@emotion/styled";
+// タグにCSSを挟む形式
 
+import styled from "@emotion/styled";
+//
 export const Emotion = () => {
   const containerStyle = css`
     border: solid 2px #392eff;
@@ -20,12 +22,12 @@ export const Emotion = () => {
   return (
     <div css={containerStyle}>
       <p css={titleStyle}>- Emotion -</p>
-      <p>Emotionでのスタイルが当たらない</p>
-      <buttonStyle>Fihght!!!</buttonStyle>
+      <p>Emotionは柔軟な書き方ができる</p>
+      <Button>Fihght!!!</Button>
     </div>
   );
 };
-const buttonStyle = styled.button`
+const Button = styled.button`
   background-color: #abedd8;
   border: none;
   padding: 8px;
