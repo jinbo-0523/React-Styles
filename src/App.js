@@ -3,6 +3,7 @@ import { CssModules } from "./Components/CssModules";
 import "./styles.css";
 import { StyledJsx } from "./Components/StyledJsx";
 import { StyledComponent } from "./Components/StyledComponent";
+import { Emotion } from "./Components/Emotion";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <CssModules />
       <StyledJsx />
       <StyledComponent />
+      <Emotion />
     </div>
   );
 }
